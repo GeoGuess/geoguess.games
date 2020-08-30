@@ -28,10 +28,8 @@ module.exports = {
    */
   themeConfig: {
     repo: 'GeoGuess-2/geoguess-2.github.io',
-    repoLabel: 'Contribute!',
     editLinks: true,
     docsDir: 'docs',
-    editLinkText: 'Help us improve this page!',
     lastUpdated: true,
     nav: [
       {
