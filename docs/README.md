@@ -19,5 +19,3 @@ features:
   details: Feature 1 Description
 footer: Made with ❤️
 ---
-
-

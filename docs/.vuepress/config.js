@@ -27,11 +27,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    repo: 'GeoGuess-2/geoguess-2.github.io',
+    repoLabel: 'Contribute!',
+    editLinks: true,
+    docsDir: 'docs',
+    editLinkText: 'Help us improve this page!',
+    lastUpdated: true,
     nav: [
       {
         text: 'Guide',
@@ -48,8 +49,7 @@ module.exports = {
           title: 'Guide',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            ''
           ]
         }
       ],
