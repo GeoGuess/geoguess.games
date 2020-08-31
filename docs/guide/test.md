@@ -1,7 +1,3 @@
 ---
 sidebar: false
 ---
-
-
-
-<MapComponent/>

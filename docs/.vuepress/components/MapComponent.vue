@@ -2,13 +2,36 @@
 <div class="container_map">  
   <div class="opacity"></div>
   <span v-for="i in [0,1,2]" v-bind:key="'m'+i" :class="'marker marker-'+i+' pos-'+((marker+i)%4)">🖈</span>
-  <div class="deploy_menu">
-    <a href="https://app.netlify.com/start/deploy?repository=https://github.com/BilelJegham/Geoguess-2">
-      <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to netlify">
-    </a> 
-    <a href="https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FBilelJegham%2FGeoguess-2&env=VUE_APP_API_KEY,VUE_APP_FIREBASE_API_KEY,VUE_APP_FIREBASE_PROJECT_ID,VUE_APP_FIREBASE_MESSAGING_SENDER_ID,VUE_APP_FIREBASE_APP_ID,VUE_APP_FIREBASE_MEASUREMENT_ID&envDescription=Follow%20guide%20on%20https%3A%2F%2Fgeoguess-2.github.io%2F&envLink=https%3A%2F%2Fgeoguess-2.github.io%2F&project-name=my-geoguess">
-      <img class="vercel_btn" src="https://vercel.com/button" alt="Deploy with Vercel">
-    </a>
+  <div class="container_map__content">
+      <img
+        v-if="data.heroImage"
+        :src="$withBase(data.heroImage)"
+        :alt="data.heroAlt || 'hero'"
+      >
+
+      <h1
+        v-if="data.heroText !== null"
+        id="main-title"
+      >
+        {{ data.heroText || $title || 'Hello' }}
+      </h1>
+
+      <p
+        v-if="data.tagline !== null"
+        class="description"
+      >
+        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+      </p>
+    <div class="deploy_menu">
+
+
+        <a href="https://app.netlify.com/start/deploy?repository=https://github.com/BilelJegham/Geoguess-2">
+        <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to netlify">
+        </a> 
+        <a href="https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FBilelJegham%2FGeoguess-2&env=VUE_APP_API_KEY,VUE_APP_FIREBASE_API_KEY,VUE_APP_FIREBASE_PROJECT_ID,VUE_APP_FIREBASE_MESSAGING_SENDER_ID,VUE_APP_FIREBASE_APP_ID,VUE_APP_FIREBASE_MEASUREMENT_ID&envDescription=Follow%20guide%20on%20https%3A%2F%2Fgeoguess-2.github.io%2F&envLink=https%3A%2F%2Fgeoguess-2.github.io%2F&project-name=my-geoguess">
+        <img class="vercel_btn" src="https://vercel.com/button" alt="Deploy with Vercel">
+        </a>
+    </div>
   </div>
 
 </div>
@@ -24,14 +47,19 @@ export default {
     setInterval(()=>{
       this.marker = (this.marker+1) %4
     }, 5000)
-  }
+  },
+  computed: {
+    data () {
+      return this.$page.frontmatter
+    },
+}
 }
 </script>
 
 <style>
 .container_map{
   width: 100%;
-  height: 500px;
+  height: 550px;
   position: relative;
   background: url(https://images.unsplash.com/photo-1562504208-03d85cc8c23e);
   background-size: cover;
@@ -73,11 +101,16 @@ export default {
   height: 100%;    
   background: rgba(0,0,0,0.8);
 }
-.deploy_menu{
+.container_map__content{
+
   z-index: 9;
     position: absolute;
     width: 100%;
-    top: 200px;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+.deploy_menu{
     text-align: center;
     display: flex;
     justify-content: center;

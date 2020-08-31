@@ -1,4 +1,5 @@
 ---
+layout: HomeLayout
 home: true
 heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: OpenSource game with Google Map StreetView  
@@ -21,5 +22,3 @@ footer: Made with ❤️
 ---
 
 
-
-<MapComponent/>
