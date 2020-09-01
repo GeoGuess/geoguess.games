@@ -29,6 +29,7 @@ module.exports = {
   themeConfig: {
     repo: 'GeoGuess-2/geoguess-2.github.io',
     editLinks: true,
+    search: true,
     docsDir: 'docs',
     lastUpdated: true,
     nav: [
@@ -41,6 +42,33 @@ module.exports = {
         link: 'https://geoguess2.netlify.app/'
       }
     ],
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        ariaLabel: 'Select language',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        
+        sidebar: {
+          '/guide/': [
+            {
+              title: 'Guide',
+              collapsable: false,
+              children: [
+                ''
+              ]
+            }
+          ],
+        }
+      },
+      '/fr/': {
+        label: 'Français',
+        selectText: 'Langue',
+        ariaLabel: 'Selectionner une langue',
+        editLinkText: 'Editer cette page sur Github',
+        lastUpdated: 'Dernière modification',
+        
     sidebar: {
       '/guide/': [
         {
@@ -51,6 +79,20 @@ module.exports = {
           ]
         }
       ],
+    }
+      }
+    }
+  },
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'GeoGuess',
+      description: 'Vue-powered Static Site Generator'
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+      title: 'GeoGuess',
+      description: 'Vue 驱动的静态网站生成器'
     }
   },
 
