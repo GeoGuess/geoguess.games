@@ -6,17 +6,17 @@ tagline: OpenSource game with Google Map StreetView
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Customs Map
+- title: 🌎 Customs Map
   details: Feature 2 Description
-- title: Translate
+- title: 🔠 Translate
   details: English, French, Czech
-- title: Easy Deploy
+- title: 👌 Easy Deploy
   details: Feature 3 Description
-- title: Score
+- title: 🥇 Score
   details: Feature 2 Description
-- title: History
+- title: 🔍 History
   details: Feature 3 Description
-- title: Multiplayer
+- title: 🎮 Multiplayer
   details: Feature 1 Description
 footer: Made with ❤️
 ---

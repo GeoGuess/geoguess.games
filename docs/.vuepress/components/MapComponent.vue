@@ -1,7 +1,7 @@
 <template>
 <div class="container_map">  
   <div class="opacity"></div>
-  <span v-for="i in [0,1,2]" v-bind:key="'m'+i" :class="'marker marker-'+i+' pos-'+((marker+i)%4)">🖈</span>
+  <span v-for="i in [0,1,2,3]" v-bind:key="'m'+i" :class="'marker marker-'+i+' pos-'+((marker+i)%4)">🖈</span>
   <div class="container_map__content">
       <img
         v-if="data.heroImage"
@@ -61,18 +61,20 @@ export default {
   width: 100%;
   height: 550px;
   position: relative;
-  background: url(https://images.unsplash.com/photo-1562504208-03d85cc8c23e);
+  background: url(https://images.unsplash.com/photo-1524661135-423995f22d0b);
   background-size: cover;
+  background-position: center;
 }
 
 .marker{
-  color: #cc2727;
+  color: aquamarine;
   font-size: 3em;
   position: absolute;
   transition: all 2.5s ease;
   right: 0;
   bottom: 0;
   z-index: 1;
+  opacity: 0.6;
 }
 .marker-1{
   color: chocolate;
@@ -80,22 +82,26 @@ export default {
 .marker-2{
   color: darkgreen;
 }
+.marker-3{
+  color: #cc2727;
+}
 .pos-0{
   right: 10%;
   bottom: 40%;
 }
 .pos-1{
   right: 75%;
-  bottom: 80%;
+  bottom: 70%;
 }
 .pos-2{
-  right: 50%;
-  bottom: 50%;
+  right: 75%;
+  bottom: 20%;
 }
 .pos-3{
   right: 25%;
   bottom: 75%;
 }
+
 .opacity{
   width: 100%;
   height: 100%;    

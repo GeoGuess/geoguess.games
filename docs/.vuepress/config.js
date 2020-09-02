@@ -1,5 +1,17 @@
 const { description } = require('../../package')
 
+const nav = (prefix) => [
+  {
+    text: 'Guide',
+    link: `${prefix}/guide/`,
+  },
+  {
+    text: 'Demo',
+    link: 'https://geoguess2.netlify.app/'
+  }
+]
+
+
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -67,19 +79,19 @@ module.exports = {
         selectText: 'Langue',
         ariaLabel: 'Selectionner une langue',
         editLinkText: 'Editer cette page sur Github',
-        lastUpdated: 'Dernière modification',
-        
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            ''
-          ]
+        lastUpdated: 'Dernière modification',     
+        nav: nav('/fr'),
+        sidebar: {
+          '/fr/guide/': [
+            {
+              title: 'Guide',
+              collapsable: true,
+              children: [
+                ''
+              ]
+            }
+          ],
         }
-      ],
-    }
       }
     }
   },
