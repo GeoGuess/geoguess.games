@@ -8,7 +8,7 @@ actionLink: /guide/
 features:
 - title: 🌎 Carte personnalisable
   details: Créer et customisé vos propres cartes
-- title: 🔠 Traduits dans +3 langues
+- title: 🔠 Traduits
   details: Anglais, Français, Tchéque et bientôt plus
 - title: 🎮 Multijoueurs
   details: Joue avec tes amis
