@@ -6,17 +6,17 @@ tagline: Jeu OpenSource avec Google Map StreetView
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Carte personnalisable
-  details: Feature 2 Description
-- title: Traduction
-  details: English, French, Czech
-- title: Simple à déployer
+- title: 🌎 Carte personnalisable
+  details: Créer et customisé vos propres cartes
+- title: 🔠 Traduits dans +3 langues
+  details: Anglais, Français, Tchéque et bientôt plus
+- title: 👌 Simple à déployer
   details: Feature 3 Description
-- title: Score
+- title: 🥇 Score
   details: Feature 2 Description
-- title: Historique
+- title: 🔍 Historique
   details: Feature 3 Description
-- title: Multijoueurs
+- title: 🎮 Multijoueurs
   details: Feature 1 Description
 footer: Made with ❤️
 ---
