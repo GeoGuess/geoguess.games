@@ -10,14 +10,14 @@ features:
   details: Créer et customisé vos propres cartes
 - title: 🔠 Traduits dans +3 langues
   details: Anglais, Français, Tchéque et bientôt plus
-- title: 👌 Simple à déployer
-  details: Feature 3 Description
-- title: 🥇 Score
-  details: Feature 2 Description
-- title: 🔍 Historique
-  details: Feature 3 Description
 - title: 🎮 Multijoueurs
-  details: Feature 1 Description
+  details: Joue avec tes amis
+- title: 👌 Simple à déployer
+  details: Suivez le guide (15min) 
+- title: 🥇 Score
+  details: Atteins les 25 000points
+- title: 🔍 Historique
+  details: Retrouve tes parties
 footer: Made with ❤️
 ---
 
