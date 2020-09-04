@@ -32,12 +32,24 @@
         <img class="vercel_btn" src="https://vercel.com/button" alt="Deploy with Vercel">
         </a>
     </div>
+    <p
+        v-if="data.actionText && data.actionLink"
+        class="action"
+    >
+        <NavLink
+          class="action-button"
+          :item="actionLink"
+        />
+    </p>
   </div>
 
 </div>
 </template>
 <script>
-export default {
+import NavLink from '@theme/components/NavLink.vue'
+
+export default {  
+  components: { NavLink },
   data(){
     return {
       marker: 0,
@@ -52,7 +64,13 @@ export default {
     data () {
       return this.$page.frontmatter
     },
-}
+    actionLink () {
+      return {
+        link: this.data.actionLink,
+        text: this.data.actionText
+      } 
+    }
+  }
 }
 </script>
 
@@ -132,4 +150,14 @@ export default {
   height: 50px;
 
 }
+.action-button{
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+}
+.action-button:hover {
+    text-decoration: underline;
+}
 </style>
+
