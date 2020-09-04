@@ -4,7 +4,7 @@ home: true
 heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: Jeu OpenSource avec Google Map StreetView  
 actionText: Guide →
-actionLink: /guide/
+actionLink: /fr/guide/
 features:
 - title: 🌎 Carte personnalisable
   details: Créez et customiséez vos propres cartes

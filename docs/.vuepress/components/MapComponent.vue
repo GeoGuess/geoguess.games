@@ -65,6 +65,7 @@ export default {
       return this.$page.frontmatter
     },
     actionLink () {
+        console.log(this.data)
       return {
         link: this.data.actionLink,
         text: this.data.actionText

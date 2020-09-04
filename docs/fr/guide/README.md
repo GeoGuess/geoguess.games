@@ -1,8 +1,8 @@
 ---
 sidebarDepth: 3
 ---
-# Geoguess 2
-Geoguess 2 est un jeu gratuit sans publicité. Les joueurs s'affrontent en 5 manches pour deviner la plus proche position d'où ils ont été placé aléatoirement.
+# Geoguess
+Geoguess est un jeu gratuit sans publicité. Les joueurs s'affrontent en 5 manches pour deviner la plus proche position d'où ils ont été placé aléatoirement.
 
 
 Vous avez la possibilité de jouer avec vos amis. Le premier joueur créé une salle et décide de sa taille. Une fois créés, les autres joueurs pourront rejoindre la salle à partir de son nom et joueur tous ensemble.
