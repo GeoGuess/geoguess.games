@@ -10,8 +10,8 @@ features:
   details: Créez et customiséez vos propres cartes
 - title: 🔠 Traduction
   details: Anglais, Français, Tchéque et bientôt plus
-- title: 🎮 Multijoueurs
-  details: Joue avec tes amis
+- title: 🎮 Multijoueurs sans délai
+  details: Jouez avec vos amis en simultanée
 - title: 👌 Simple à déployer
   details: Suivez le guide (15 min) 
 - title: 🥇 Score

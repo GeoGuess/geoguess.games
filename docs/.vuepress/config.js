@@ -6,6 +6,10 @@ const nav = (prefix) => [
     link: `${prefix}/guide/`,
   },
   {
+    text: 'RoadMap',
+    link: `${prefix}/ROADMAP.html`,
+  },
+  {
     text: 'Demo',
     link: 'https://geoguess2.netlify.app/'
   }
@@ -44,16 +48,7 @@ module.exports = {
     search: true,
     docsDir: 'docs',
     lastUpdated: true,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Demo',
-        link: 'https://geoguess2.netlify.app/'
-      }
-    ],
+    nav: nav(''),
     locales: {
       '/': {
         label: 'English',
@@ -72,7 +67,8 @@ module.exports = {
               ]
             }
           ],
-        }
+          
+        },
       },
       '/fr/': {
         label: 'Français',
@@ -104,7 +100,7 @@ module.exports = {
     '/fr/': {
       lang: 'fr-FR',
       title: 'GeoGuess',
-      description: 'Vue 驱动的静态网站生成器'
+      description: 'Un jeu Open Source avec Google Map StreetView.'
     }
   },
 
