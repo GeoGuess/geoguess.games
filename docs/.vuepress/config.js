@@ -20,7 +20,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'GeoGuess 2',
+  title: 'GeoGuess',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

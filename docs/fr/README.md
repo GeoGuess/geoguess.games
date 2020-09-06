@@ -6,19 +6,19 @@ tagline: Jeu OpenSource avec Google Map StreetView
 actionText: Guide →
 actionLink: /fr/guide/
 features:
-- title: 🌎 Carte personnalisable
-  details: Créez et customiséez vos propres cartes
+- title: 🆓 Gratuit
+  details: 100% gratuit
 - title: 🔠 Traduction
   details: Anglais, Français, Tchéque et bientôt plus
-- title: 🎮 Multijoueurs sans délai
-  details: Jouez avec vos amis en simultanée
 - title: 👌 Simple à déployer
   details: Suivez le guide (15 min) 
-- title: 🥇 Score
-  details: Atteignez les 25 000 points
-- title: 🔗 Partagez vos parties
-  details: Retrouvez et partagez vos parties
-footer: Made with ❤️
+- title: 🌎 Carte personnalisable
+  details: Créez et customiséez vos propres cartes
+- title: 🎮 Multijoueurs sans délai
+  details: Jouez avec vos amis en simultanée
+- title: 🐙 et bien plus
+  details: 🥇 Score, 🔍 Historique, 🔗 Partagez et rejouer vos parties et +
+footer: Sous licence MIT
 ---
 
 

@@ -3,22 +3,21 @@ layout: HomeLayout
 home: true
 heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: OpenSource game with Google Map StreetView  
-actionText: Quick Start →
+actionText: Guide →
 actionLink: /guide/
 features:
-- title: 🌎 Customs Map
-  details: Feature 2 Description
+- title: 🆓 Free
+  details: 100% free
 - title: 🔠 Translate
-  details: English, French, Czech
+  details: English, French, Czech and more soon
 - title: 👌 Easy Deploy
-  details: Feature 3 Description
-- title: 🥇 Score
-  details: Feature 2 Description
-- title: 🔍 History
-  details: Feature 3 Description
-- title: 🎮 Multiplayer
-  details: Feature 1 Description
-footer: Made with ❤️
+  details: Follow instructions (15 min)
+- title: 🌎 Customs Map
+  details: Build et customs your maps
+- title: 🎮 Multiplayer live
+  details: Play with your friends [en simultanée]
+- title: 🐙 and more
+  details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
+footer: Under MIT licence
 ---
-
 

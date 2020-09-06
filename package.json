@@ -1,13 +1,13 @@
 {
-  "name": "geoguess2-doc",
+  "name": "geoguess-doc",
   "version": "0.0.1",
-  "description": "",
+  "description": "Documentation for GeoGuess (openSource game with Google Map StreetView)",
   "main": "index.js",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "Bilel Jegham",
+    "email": "@BilelJegham"
   },
-  "repository": "/GeoGuess2-2-doc",
+  "repository": "/GeoGuess-2-doc",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
