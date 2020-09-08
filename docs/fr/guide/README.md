@@ -30,7 +30,7 @@ Il vous sera demandé de saisir des variables d'environnement, vous retrouverez 
     1. Aller sur https://cloud.google.com/maps-platform/
     2. Cliquer sur Premiers pas
     3. Une page s'ouvre et vous demande d'activer la facturation
-    !["Google"](../../img/google-1-fr.png)
+    !["Google"](../../img/google-fr.png)
     > **Note :** Google offre 200 $ de crédit mensuel pour l'usage des apis de Google Map ([Source](https://cloud.google.com/maps-platform/pricing?hl=fr)). Pour un usage entre amis, vous ne dépasserez jamais ce montant.
     4. Créer votre compte de facturation
 

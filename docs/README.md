@@ -11,7 +11,7 @@ features:
 - title: 🔠 Translate
   details: English, French, Czech and more soon
 - title: 👌 Easy Self-Host
-  details: Follow instructions
+  details: Follow the guide
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🎮 Multiplayer live

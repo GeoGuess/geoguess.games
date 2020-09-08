@@ -32,7 +32,7 @@ It will be ask to give Environment variables, we will explain how to create and 
     1. Go to [https://cloud.google.com/maps-platform/](https://cloud.google.com/maps-platform/)
     2. Click on "Get started"
     3. Page will open and ask you to activate billing
-    !["Google"](../img/google-1-en.png)
+    !["Google"](../img/google-en.png)
     > **Note :** Google offers 200 $ credit per month to use Google Map Apis ([Source](https://cloud.google.com/maps-platform/pricing)). For personal usage, you won't use more than the free credit.
     4. Create Billing Account
 
