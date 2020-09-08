@@ -7,15 +7,15 @@ actionText: Guide →
 actionLink: /guide/
 features:
 - title: 🆓 Free
-  details: 100% free
+  details: Open source game under MIT license 
 - title: 🔠 Translate
   details: English, French, Czech and more soon
-- title: 👌 Easy Deploy
-  details: Follow instructions (15 min)
+- title: 👌 Easy Self-Host
+  details: Follow instructions
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🎮 Multiplayer live
-  details: Play with your friends [en simultanée]
+  details: Play with your friends 
 - title: 🐙 and more
   details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 footer: Under MIT licence

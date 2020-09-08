@@ -30,7 +30,7 @@ Il vous sera demandé de saisir des variables d'environnement, vous retrouverez 
     1. Aller sur https://cloud.google.com/maps-platform/
     2. Cliquer sur Premiers pas
     3. Une page s'ouvre et vous demande d'activer la facturation
-    !["Google"](./img/google-1.png)
+    !["Google"](../../img/google-1-fr.png)
     > **Note :** Google offre 200 $ de crédit mensuel pour l'usage des apis de Google Map ([Source](https://cloud.google.com/maps-platform/pricing?hl=fr)). Pour un usage entre amis, vous ne dépasserez jamais ce montant.
     4. Créer votre compte de facturation
 
@@ -51,11 +51,11 @@ Il vous sera demandé de saisir des variables d'environnement, vous retrouverez 
 2. Aller sous la rubrique "Développer" dans "Realtime Database", Créer une base de données
 3. Aller dans l'onglet Règles,
     1. Remplacer les 2 champs (write et read) `false` par `true` dans le champ
-!["Règle"](./img/firebase.png)
+!["Règle"](../../img/firebase.png)
     2. Publier les modifications
 4. Revenez sur la page d'accueil en cliquant dans le menu à gauche sur "Vue d'ensemble du projet"
 5. Sous le titre sur projet, cliquer sur l'icône Web `</>` pour ajouter une application
-!["Ajout App"](./img/firebase-2.png)
+!["Ajout App"](../../img/firebase-2.png)
 6. Enregistrer l'application puis récupérer les variables d'environnement indiqué sous `firebaseConfig` 
 
 Voici les associations :
