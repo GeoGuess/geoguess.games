@@ -3,7 +3,7 @@ layout: HomeLayout
 home: true
 heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: OpenSource game with Google Map StreetView  
-actionText: Guide →
+actionText: Guid →
 actionLink: /guide/
 features:
 - title: 🆓 Free
@@ -18,6 +18,11 @@ features:
   details: Play with your friends 
 - title: 🐙 and more
   details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
+# blocks:
+# - title: Hello
+#   text: Open source game under MIT license 
+#   srcImg: test.png
+#   altImg: screenshot
 footer: Under MIT licence
 ---
 

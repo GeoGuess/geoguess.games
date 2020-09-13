@@ -34,16 +34,34 @@
         v-if="data.features && data.features.length"
         class="features"
         >
-        <div
-            v-for="(feature, index) in data.features"
-            :key="index"
-            class="feature"
+          <div
+              v-for="(feature, index) in data.features"
+              :key="index"
+              class="feature"
+          >
+              <h2>{{ feature.title }}</h2>
+              <p>{{ feature.details }}</p>
+          </div>
+        </div>
+    </div>
+        <div         
+        class="blocks"
+        v-if="data.blocks && data.blocks.length"
         >
-            <h2>{{ feature.title }}</h2>
-            <p>{{ feature.details }}</p>
+          
+          <BlockComponent
+            v-for="(block, index) in data.blocks"
+            :key="index"
+            class="block"
+            :title="block.title"
+            :text="block.text"
+            :srcImg="block.srcImg"
+            :altImg="block.altImg"
+          />
+          </div>
+          <BlockComponent/>
         </div>
-        </div>
-
+    <div class="home">
         <Content class="theme-default-content custom" />
 
         <div
@@ -59,6 +77,7 @@
 
 <script>
 import MapComponent from './MapComponent.vue'
+import BlockComponent from './BlockComponent.vue'
 import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
@@ -67,6 +86,7 @@ export default {
   name: 'HomeLayout',
 
   components: {
+    BlockComponent,
     MapComponent,
     Home,
     Sidebar,
