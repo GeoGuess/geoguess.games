@@ -1,7 +1,11 @@
 <template>
 <div class="container_map">  
   <div class="opacity"></div>
-  <span v-for="i in [0,1,2,3]" v-bind:key="'m'+i" :class="'marker marker-'+i+' pos-'+((marker+i)%4)">🖈</span>
+  <span v-for="i in [0,1,2,3]" v-bind:key="'m'+i" :class="'marker marker-'+i+' pos-'+((marker+i)%4)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+    </svg>
+  </span>
   <div class="container_map__content">
       <img
         v-if="data.heroImage"
@@ -65,7 +69,6 @@ export default {
       return this.$page.frontmatter
     },
     actionLink () {
-        console.log(this.data)
       return {
         link: this.data.actionLink,
         text: this.data.actionText
@@ -93,7 +96,8 @@ export default {
   right: 0;
   bottom: 0;
   z-index: 1;
-  opacity: 0.6;
+  opacity: 0.7;
+  width: 0.75em;
 }
 .marker-1{
   color: chocolate;

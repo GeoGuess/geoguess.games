@@ -52,14 +52,13 @@
           <BlockComponent
             v-for="(block, index) in data.blocks"
             :key="index"
-            class="block"
             :title="block.title"
             :text="block.text"
             :srcImg="block.srcImg"
             :altImg="block.altImg"
+            :reverse="(index%2!==0)"
           />
           </div>
-          <BlockComponent/>
         </div>
     <div class="home">
         <Content class="theme-default-content custom" />
