@@ -1,6 +1,7 @@
 ---
 layout: HomeLayout
 home: true
+heroText: GeoGuess Beta
 heroImage: https://github.com/GeoGuess/Geoguess/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: Jeu OpenSource avec Google Map StreetView  
 actionText: Guide →

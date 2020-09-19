@@ -149,7 +149,7 @@ export default {
   margin: 0 5%;
 }
 .deploy_menu img{
-  height: 40px;
+  height: 48px;
 }
 .deploy_menu img.vercel_btn{
   height: 50px;
