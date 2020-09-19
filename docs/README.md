@@ -21,11 +21,11 @@ features:
 blocks:
 - title: How to play ?
   text: Player compete how close the player can guess random locations in five rounds. 
-  srcImg: screenshot-game.png
+  srcImg: img/screenshot-game.png
   altImg: screenshot
 - title: Hello
   text: Open source game under MIT license 
-  srcImg: screenshot-scoreboard.png
+  srcImg: img/screenshot-scoreboard.png
   altImg: screenshot  
 footer: Under MIT licence
 ---

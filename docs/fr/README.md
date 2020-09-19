@@ -25,13 +25,13 @@ blocks:
     C'est simple !
     Vous avez 5 manches pour obtenir le meilleur score.
     A chaque manche, deviner votre position initiale en plaçant un marqueur sur la carte.
-  srcImg: ../screenshot-game.png
+  srcImg: ..img/screenshot-game.png
   altImg: Ecran du jeu
 - title: Comment jouer avec mes amis ?
   text: |
     Créer une salle en définissant les paramètres de la partie (cartes, limite de temps, nombre de joueurs).
     Lancer la partie et partager le lien de la salle à vos amis. Et hop, c'est parti !!! 🚗
-  srcImg: ../screenshot-scoreboard.png
+  srcImg: ..img/screenshot-scoreboard.png
   altImg: Ecran de score  
 footer: Sous licence MIT
 ---

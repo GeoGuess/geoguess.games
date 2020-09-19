@@ -7,7 +7,7 @@ const nav = (prefix) => [
   },
   {
     text: 'RoadMap',
-    link: `${prefix}/ROADMAP.html`,
+    link: 'https://github.com/GeoGuess/Geoguess/projects/3',
   },
   {
     text: 'Demo',
@@ -33,8 +33,12 @@ module.exports = {
    */
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#1a2372' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/icons/apple-icon-152x152.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/img/icons/ms-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
