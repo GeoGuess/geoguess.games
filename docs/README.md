@@ -1,6 +1,7 @@
 ---
 layout: HomeLayout
 home: true
+heroText: GeoGuess beta
 heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
 tagline: OpenSource game with Google Map StreetView  
 actionText: Guide →
@@ -20,11 +21,16 @@ features:
   details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 blocks:
 - title: How to play ?
-  text: Player compete how close the player can guess random locations in five rounds. 
+  text: |
+    It's simple!
+    You have 5 rounds to get the maximum score.
+    Every round, guess the initial position by playing a maker on the map.
   srcImg: img/screenshot-game.png
   altImg: screenshot
-- title: Hello
-  text: Open source game under MIT license 
+- title: How to play with my friends ?
+  text: |
+    Create a room and define the game parameter (map, time limit, number of players).
+    Start the game and share the room link with your friends. Let's go !!! 🚗💨
   srcImg: img/screenshot-scoreboard.png
   altImg: screenshot  
 footer: Under MIT licence

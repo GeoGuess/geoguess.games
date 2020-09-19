@@ -182,6 +182,12 @@ export default {
 <style>
 #app .home{
     padding-top: 0;
+
+}
+
+#app .home .features {
+    border-top: none;
+    margin: 2% 0 ;
 }
     
 </style>

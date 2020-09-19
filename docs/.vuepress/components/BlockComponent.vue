@@ -22,7 +22,7 @@ export default {
     display: flex;
     flex-flow: row wrap;
     background: #eee;
-    padding: 2% 4%;
+    padding: 4%;
 }
 
 .block div{
@@ -57,10 +57,16 @@ export default {
 }
 @media (max-width: 719px){
     .block div{
-    
         max-width: 100%;
     }
 
 }
+
+@media (max-width: 520px){
+    .block{   
+        flex-direction: column !important;
+    }
+}
+
 
 </style>
