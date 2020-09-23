@@ -1,4 +1,4 @@
-# GeoGuess2-2-doc
+# GeoGuess Documentation
 
 > 
 

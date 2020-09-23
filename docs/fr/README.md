@@ -9,14 +9,14 @@ actionLink: /fr/guide/
 features:
 - title: 🆓 Gratuit
   details: Jeu OpenSource sous licence MIT
-- title: 🔠 Traduction
-  details: Anglais, Français, Tchéque et bientôt plus
+- title: 🎮 Multijoueurs sans délai
+  details: Jouez avec vos amis en simultanée
 - title: 👌 Simple à déployer
   details: Suivez le guide (15 min) 
 - title: 🌎 Carte personnalisable
   details: Créez et customiséez vos propres cartes
-- title: 🎮 Multijoueurs sans délai
-  details: Jouez avec vos amis en simultanée
+- title: 🔠 Traduction
+  details: Anglais, Français, Tchéque et bientôt plus
 - title: 🐙 et bien plus
   details: 🥇 Score, 🔍 Historique, 🔗 Partagez et rejouer vos parties et +
 blocks:
@@ -37,3 +37,4 @@ footer: Sous licence MIT
 ---
 
 
+<SocialComponent/>

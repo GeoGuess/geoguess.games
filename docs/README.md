@@ -9,14 +9,14 @@ actionLink: /guide/
 features:
 - title: 🆓 Free
   details: Open source game under MIT license 
-- title: 🔠 Translate
-  details: English, French, Czech and more soon
+- title: 🎮 Multiplayer live
+  details: Play with your friends simultaneously
 - title: 👌 Easy Self-Host
   details: Follow the guide
+- title: 🔠 Translate
+  details: English, French, Czech and more soon
 - title: 🌎 Customs Map
   details: Build et customs your maps
-- title: 🎮 Multiplayer live
-  details: Play with your friends 
 - title: 🐙 and more
   details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 blocks:

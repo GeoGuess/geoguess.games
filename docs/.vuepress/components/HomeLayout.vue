@@ -67,7 +67,8 @@
         v-if="data.footer"
         class="footer"
         >
-        {{ data.footer }}
+        <SocialComponent/>
+        <p>{{ data.footer }}</p>
         </div>
     </div>
     </div>
@@ -76,6 +77,7 @@
 
 <script>
 import MapComponent from './MapComponent.vue'
+import SocialComponent from './SocialComponent.vue'
 import BlockComponent from './BlockComponent.vue'
 import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
@@ -89,7 +91,8 @@ export default {
     MapComponent,
     Home,
     Sidebar,
-    Navbar
+    Navbar,
+    SocialComponent
   },
   
   data () {

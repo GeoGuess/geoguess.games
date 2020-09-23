@@ -24,7 +24,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'GeoGuess is an open-source geography game with Google Map StreetView. You can play solo or with your friends simultaneously.',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -41,7 +41,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-  ],
+],
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -49,7 +49,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'GeoGuess-2/geoguess-2.github.io',
+    repo: 'GeoGuess/geoguess.github.io',
     editLinks: true,
     search: true,
     docsDir: 'docs',
@@ -116,6 +116,13 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    '@vuepress/pwa'
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
+    }],
+    ['sitemap', {
+      hostname: 'https://geoguess.github.io/'
+    }],
+    
   ]
 }
