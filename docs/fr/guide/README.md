@@ -69,3 +69,6 @@ Voici les associations :
 | measurementId     | VUE_APP_FIREBASE_MEASUREMENT_ID      |
 
 > **Note**: `measurementId` est accessible si vous avez activé Google Analytics
+
+
+<!--imageSocial"/img/social.jpeg"-->

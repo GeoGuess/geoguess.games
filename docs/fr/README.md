@@ -37,4 +37,7 @@ footer: Sous licence MIT
 ---
 
 
-<SocialComponent/>
+
+
+
+<!--imageSocial"/img/social.jpeg"-->

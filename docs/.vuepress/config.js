@@ -130,9 +130,15 @@ module.exports = {
             name   : 'GeoGuess',
         },  
         author: {
-            name   : 'BilelJegham',
-            twitter: 'BilelJegham',
+            name   : 'Bilel Jegham',
+            twitter: '@BilelJegham',
         },
+         image_sources: [
+             /<!--imageSocial["'](.*?)['"]/i,
+             
+			/!\[.*?\]\((.*?)\)/i,					// markdown image regex
+			/<img.*?src=['"](.*?)['"]/i,
+        ],
     } ]
   ]
 }

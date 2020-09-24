@@ -34,5 +34,8 @@ blocks:
   srcImg: img/screenshot-scoreboard.png
   altImg: screenshot  
 footer: Under MIT licence
+
 ---
 
+
+<!--imageSocial"/img/social.jpeg"-->

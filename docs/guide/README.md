@@ -74,3 +74,6 @@ Here are the associations:
 | measurementId     | VUE_APP_FIREBASE_MEASUREMENT_ID      |
 
 > **Note**: `measurementId` was accessible if you have activate Google Analytics
+
+
+<!--imageSocial"/img/social.jpeg"-->
