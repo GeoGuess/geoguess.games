@@ -138,7 +138,13 @@ module.exports = {
              
 			/!\[.*?\]\((.*?)\)/i,					// markdown image regex
 			/<img.*?src=['"](.*?)['"]/i,
-        ],
-    } ]
+        ]
+    } ],
+    [
+        '@vuepress/google-analytics',
+        {
+            'ga': 'UA-167347365-1' // UA-00000000-0
+        }
+    ]
   ]
 }
