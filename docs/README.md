@@ -38,4 +38,4 @@ footer: Under MIT licence
 ---
 
 
-<!--imageSocial"https://demo.geoguess.games/img/social.jpeg"-->
+<!--imageSocial"https://geoguess.games/img/social.jpeg"-->

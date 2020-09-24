@@ -76,4 +76,4 @@ Here are the associations:
 > **Note**: `measurementId` was accessible if you have activate Google Analytics
 
 
-<!--imageSocial"https://demo.geoguess.games/img/social.jpeg"-->
+<!--imageSocial"https://geoguess.games/img/social.jpeg"-->
