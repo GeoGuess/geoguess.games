@@ -11,7 +11,7 @@ const nav = (prefix) => [
   },
   {
     text: 'Demo',
-    link: 'https://geoguess2.netlify.app/'
+    link: 'https://demo.geoguess.games/'
   }
 ]
 
