@@ -16,3 +16,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: docs/.vuepress/dist/
+        CNAME: geoguess.games
