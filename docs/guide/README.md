@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 3
 ---
-# Geoguess
+# Geoguess Guide
 
 Geoguess is a free game. Players compete how close the player can guess random locations in five rounds. 
 You can play multiplayer with your friends. The first player creates a room and decides the room size. Other players type the same room name as the first player created and the game will start.

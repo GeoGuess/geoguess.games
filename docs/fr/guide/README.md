@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 3
 ---
-# Geoguess
+# Guide Geoguess
 Geoguess est un jeu gratuit sans publicité. Les joueurs s'affrontent en 5 manches pour deviner la plus proche position d'où ils ont été placé aléatoirement.
 
 
