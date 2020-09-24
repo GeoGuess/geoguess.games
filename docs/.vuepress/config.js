@@ -20,7 +20,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'GeoGuess Documentation',
+  title: 'GeoGuess',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -41,6 +41,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+
 ],
 
   /**
@@ -124,5 +125,14 @@ module.exports = {
       hostname: 'https://geoguess.github.io/'
     }],
     
+    [ 'autometa', {
+        site: {
+            name   : 'GeoGuess',
+        },  
+        author: {
+            name   : 'BilelJegham',
+            twitter: 'BilelJegham',
+        },
+    } ]
   ]
 }
