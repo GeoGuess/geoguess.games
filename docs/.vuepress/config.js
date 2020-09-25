@@ -122,9 +122,8 @@ module.exports = {
       updatePopup: true
     }],
     ['sitemap', {
-      hostname: 'https://geoguess.github.io/'
+      hostname: 'https://geoguess.games/'
     }],
-    
     [ 'autometa', {
         site: {
             name   : 'GeoGuess',
