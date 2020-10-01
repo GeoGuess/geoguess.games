@@ -14,7 +14,7 @@ features:
 - title: 👌 Easy Self-Host
   details: Follow the guide
 - title: 🔠 Translate
-  details: English, French, Czech and more soon
+  details: English, French, Czech, Deutsch and more soon
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🐙 and more
