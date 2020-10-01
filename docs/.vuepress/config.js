@@ -7,11 +7,11 @@ const nav = (prefix) => [
   },
   {
     text: 'RoadMap',
-    link: `${prefix}/ROADMAP.html`,
+    link: 'https://github.com/GeoGuess/Geoguess/projects/3',
   },
   {
     text: 'Demo',
-    link: 'https://geoguess2.netlify.app/'
+    link: 'https://demo.geoguess.games/'
   }
 ]
 
@@ -24,7 +24,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'GeoGuess is an open-source geography game with Google Map StreetView. You can play solo or with your friends simultaneously.',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -32,10 +32,17 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#1a2372' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/icons/apple-icon-152x152.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/img/icons/ms-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
-  ],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+
+],
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -43,7 +50,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'GeoGuess-2/geoguess-2.github.io',
+    repo: 'GeoGuess/geoguess.github.io',
     editLinks: true,
     search: true,
     docsDir: 'docs',
@@ -110,5 +117,33 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
+    }],
+    ['sitemap', {
+      hostname: 'https://geoguess.games/'
+    }],
+    [ 'autometa', {
+        site: {
+            name   : 'GeoGuess',
+        },  
+        author: {
+            name   : 'Bilel Jegham',
+            twitter: '@BilelJegham',
+        },
+         image_sources: [
+             /<!--imageSocial["'](.*?)['"]/i,
+             
+			/!\[.*?\]\((.*?)\)/i,					// markdown image regex
+			/<img.*?src=['"](.*?)['"]/i,
+        ]
+    } ],
+    [
+        '@vuepress/google-analytics',
+        {
+            'ga': 'UA-167347365-1' // UA-00000000-0
+        }
+    ]
   ]
 }

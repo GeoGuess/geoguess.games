@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 3
 ---
-# Geoguess
+# Geoguess Guide
 
 Geoguess is a free game. Players compete how close the player can guess random locations in five rounds. 
 You can play multiplayer with your friends. The first player creates a room and decides the room size. Other players type the same room name as the first player created and the game will start.
@@ -16,8 +16,8 @@ This guide explains how to deploy your own server GeoGuess.
 
 You can deploy the game with : 
 
-[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BilelJegham/Geoguess-2) or 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FBilelJegham%2FGeoguess-2&env=VUE_APP_API_KEY,VUE_APP_FIREBASE_API_KEY,VUE_APP_FIREBASE_PROJECT_ID,VUE_APP_FIREBASE_MESSAGING_SENDER_ID,VUE_APP_FIREBASE_APP_ID,VUE_APP_FIREBASE_MEASUREMENT_ID&envDescription=Follow%20guide%20on%20https%3A%2F%2Fgeoguess-2.github.io%2F&envLink=https%3A%2F%2Fgeoguess-2.github.io%2F&project-name=my-geoguess)
+[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Geoguess/Geoguess) or 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FGeoGuess%2FGeoguess&env=VUE_APP_API_KEY,VUE_APP_FIREBASE_API_KEY,VUE_APP_FIREBASE_PROJECT_ID,VUE_APP_FIREBASE_MESSAGING_SENDER_ID,VUE_APP_FIREBASE_APP_ID,VUE_APP_FIREBASE_MEASUREMENT_ID&envDescription=Follow%20guide%20on%20https%3A%2F%2Fgeoguess.games%2F&envLink=https%3A%2F%2Fgeoguess.games%2F&project-name=my-geoguess&demo-title=GeoGuess&demo-description=GeoGuess%20is%20an%20open-source%20geography%20game%20with%20Google%20Map%20StreetView.%20You%20can%20play%20solo%20or%20with%20your%20friends%20simultaneously.&demo-url=https%3A%2F%2Fdemo.geoguess.games%2F&demo-image=https%3A%2F%2Fgeoguess.games%2Fimg%2Fsocial.jpg)
 
 
 It will be ask to give Environment variables, we will explain how to create and find them.
@@ -74,3 +74,6 @@ Here are the associations:
 | measurementId     | VUE_APP_FIREBASE_MEASUREMENT_ID      |
 
 > **Note**: `measurementId` was accessible if you have activate Google Analytics
+
+
+<!--imageSocial"https://geoguess.games/img/social.jpg"-->

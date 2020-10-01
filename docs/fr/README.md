@@ -1,24 +1,43 @@
 ---
 layout: HomeLayout
 home: true
-heroImage: https://github.com/BilelJegham/Geoguess-2/blob/master/public/img/icons/android-icon-144x144.png?raw=true
+heroText: GeoGuess beta
+heroImage: ../img/icons/android-icon-144x144.png
 tagline: Jeu OpenSource avec Google Map StreetView  
 actionText: Guide →
 actionLink: /fr/guide/
 features:
 - title: 🆓 Gratuit
-  details: 100% gratuit
-- title: 🔠 Traduction
-  details: Anglais, Français, Tchéque et bientôt plus
+  details: Jeu OpenSource sous licence MIT
+- title: 🎮 Multijoueurs sans délai
+  details: Jouez avec vos amis en simultanée
 - title: 👌 Simple à déployer
   details: Suivez le guide (15 min) 
 - title: 🌎 Carte personnalisable
   details: Créez et customiséez vos propres cartes
-- title: 🎮 Multijoueurs sans délai
-  details: Jouez avec vos amis en simultanée
+- title: 🔠 Traduction
+  details: Anglais, Français, Tchéque et bientôt plus
 - title: 🐙 et bien plus
   details: 🥇 Score, 🔍 Historique, 🔗 Partagez et rejouer vos parties et +
+blocks:
+- title: Comment ça marche ?
+  text: |
+    C'est simple !
+    Vous avez 5 manches pour obtenir le meilleur score.
+    A chaque manche, deviner votre position initiale en plaçant un marqueur sur la carte.
+  srcImg: ../img/screenshot-game.png
+  altImg: Ecran du jeu
+- title: Comment jouer avec mes amis ?
+  text: |
+    Créer une salle en définissant les paramètres de la partie (cartes, limite de temps, nombre de joueurs).
+    Lancer la partie et partager le lien de la salle à vos amis. Et hop, c'est parti !!! 🚗💨
+  srcImg: ../img/screenshot-scoreboard.png
+  altImg: Ecran de score  
 footer: Sous licence MIT
 ---
 
 
+
+
+
+<!--imageSocial"https://geoguess.games/img/social.jpg"-->
