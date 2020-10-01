@@ -16,7 +16,7 @@ features:
 - title: 🌎 Carte personnalisable
   details: Créez et customiséez vos propres cartes
 - title: 🔠 Traduction
-  details: Anglais, Français, Tchéque et bientôt plus
+  details: Anglais, Français, Tchéque, Allemand et bientôt plus
 - title: 🐙 et bien plus
   details: 🥇 Score, 🔍 Historique, 🔗 Partagez et rejouer vos parties et +
 blocks:
