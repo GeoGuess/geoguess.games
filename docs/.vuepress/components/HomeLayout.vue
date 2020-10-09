@@ -68,7 +68,9 @@
         class="footer"
         >
         <SocialComponent/>
-        <p>{{ data.footer }}</p>
+        <p>{{ data.footer }}<br/>
+        <a href="https://www.netlify.com">This site is powered by Netlify</a></p>
+        
         </div>
     </div>
     </div>

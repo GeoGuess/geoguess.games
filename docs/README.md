@@ -33,7 +33,7 @@ blocks:
     Start the game and share the room link with your friends. Let's go !!! 🚗💨
   srcImg: img/screenshot-scoreboard.png
   altImg: screenshot  
-footer: This site is powered by Netlify
+footer: Under MIT licence
 
 ---
 
