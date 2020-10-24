@@ -70,7 +70,8 @@ module.exports = {
               title: 'Guide',
               collapsable: false,
               children: [
-                ''
+                '',
+                '/guide/instructions'
               ]
             }
           ],
@@ -90,7 +91,8 @@ module.exports = {
               title: 'Guide',
               collapsable: true,
               children: [
-                ''
+                '',
+                '/fr/guide/instructions'
               ]
             }
           ],
