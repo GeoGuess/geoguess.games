@@ -50,10 +50,11 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'GeoGuess/geoguess.github.io',
-    editLinks: true,
+    repo: 'GeoGuess/GeoGuess',
     search: true,
+	docsRepo: 'GeoGuess/geoguess.games',
     docsDir: 'docs',
+    editLinks: true,
     lastUpdated: true,
     nav: nav(''),
     locales: {
