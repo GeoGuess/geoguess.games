@@ -69,10 +69,11 @@ module.exports = {
           '/guide/': [
             {
               title: 'Guide',
-              collapsable: false,
+              collapsable: true,
               children: [
                 '',
-                '/guide/instructions'
+                '/guide/instructions',
+                '/guide/maps'
               ]
             }
           ],
@@ -93,7 +94,7 @@ module.exports = {
               collapsable: true,
               children: [
                 '',
-                '/fr/guide/instructions'
+                '/fr/guide/instructions',
               ]
             }
           ],
@@ -105,7 +106,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'GeoGuess',
-      description: 'Vue-powered Static Site Generator'
+      description: 'OpenSource game with Google Map StreetView.'
     },
     '/fr/': {
       lang: 'fr-FR',
