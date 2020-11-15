@@ -2,7 +2,7 @@
 # Update the game
 
 
-Unfortunaly, Vercel and Netlify not update automatic your game server. But you can manualy update
+Unfortunately, Vercel and Netlify do not update automatic your game server. But you can manually update
 
 Launch the following cmd in the directory of your repo.
 ```bash
