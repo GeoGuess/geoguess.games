@@ -73,7 +73,8 @@ module.exports = {
               children: [
                 '',
                 '/guide/instructions',
-                '/guide/maps'
+                '/guide/maps',
+                '/guide/update'
               ]
             }
           ],
