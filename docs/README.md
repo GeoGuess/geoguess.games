@@ -14,7 +14,7 @@ features:
 - title: 🔠 Translate
   details: English, French, Czech, Deutsch, Russian and more soon
 - title: 🏴‍☠️ Mode Country
-  details: "Mode TimeAttack : The first player who guess a country true won the round" 
+  details: "Mode TimeAttack beta" 
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🐙 and more
