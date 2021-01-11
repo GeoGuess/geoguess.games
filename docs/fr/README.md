@@ -1,14 +1,14 @@
 ---
 layout: HomeLayout
 home: true
-heroText: GeoGuess beta
+heroText: GeoGuess
 heroImage: ../img/icons/android-icon-144x144.png
 tagline: Jeu OpenSource avec Google Map StreetView  
 actionText: Guide →
 actionLink: /fr/guide/
 features:
 - title: 👌 Gratuit & Simple à déployer
-  details: Jeu OpenSource sous licence MIT <br/> Suivez le guide (15 min) 
+  details: Jeu OpenSource sous licence MIT
 - title: 🎮 Multijoueurs sans délai
   details: Jouez avec vos amis en simultanée
 - title: 🔠 Traduction
