@@ -7,16 +7,16 @@ tagline: Jeu OpenSource avec Google Map StreetView
 actionText: Guide →
 actionLink: /fr/guide/
 features:
-- title: 🆓 Gratuit
-  details: Jeu OpenSource sous licence MIT
+- title: 👌 Gratuit & Simple à déployer
+  details: Jeu OpenSource sous licence MIT <br/> Suivez le guide (15 min) 
 - title: 🎮 Multijoueurs sans délai
   details: Jouez avec vos amis en simultanée
-- title: 👌 Simple à déployer
-  details: Suivez le guide (15 min) 
+- title: 🔠 Traduction
+  details: Anglais, Français, Tchéque, Allemand, Russe et bientôt plus
+- title: 🏴‍☠️ Mode Pays
+  details: "Mode TimeAttack : le 1er joueurs qui devine le bon pays game la manche" 
 - title: 🌎 Carte personnalisable
   details: Créez et customiséez vos propres cartes
-- title: 🔠 Traduction
-  details: Anglais, Français, Tchéque, Allemand et bientôt plus
 - title: 🐙 et bien plus
   details: 🥇 Score, 🔍 Historique, 🔗 Partagez et rejouer vos parties et +
 blocks:

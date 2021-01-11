@@ -5,7 +5,7 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar
+    <NavBar
       v-if="shouldShowNavbar"
       @toggle-sidebar="toggleSidebar"
     />
@@ -82,7 +82,7 @@ import MapComponent from './MapComponent.vue'
 import SocialComponent from './SocialComponent.vue'
 import BlockComponent from './BlockComponent.vue'
 import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
+import NavBar from './home/NavBar.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '@theme/util'
 export default {
@@ -93,7 +93,7 @@ export default {
     MapComponent,
     Home,
     Sidebar,
-    Navbar,
+    NavBar,
     SocialComponent
   },
   

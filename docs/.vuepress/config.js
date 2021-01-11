@@ -6,10 +6,6 @@ const nav = (prefix) => [
     link: `${prefix}/guide/`,
   },
   {
-    text: 'RoadMap',
-    link: 'https://github.com/GeoGuess/Geoguess/projects/3',
-  },
-  {
     text: 'Demo',
     link: 'https://demo.geoguess.games/'
   }
@@ -20,7 +16,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'GeoGuess Beta',
+  title: 'GeoGuess',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -50,7 +46,8 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'GeoGuess/GeoGuess',
+    repoLabel: 'Contribute',
+    repo: 'https://github.com/GeoGuess/GeoGuess/contribute',
     search: true,
 	docsRepo: 'GeoGuess/geoguess.games',
     docsDir: 'docs',

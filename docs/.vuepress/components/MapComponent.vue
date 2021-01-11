@@ -83,7 +83,7 @@ export default {
   width: 100%;
   height: 550px;
   position: relative;
-  background: url(https://images.unsplash.com/photo-1524661135-423995f22d0b);
+  background: url(/img/background-home.jpg);
   background-size: cover;
   background-position: center;
 }

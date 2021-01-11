@@ -7,14 +7,14 @@ tagline: OpenSource game with Google Map StreetView
 actionText: Guide →
 actionLink: /guide/
 features:
-- title: 🆓 Free
-  details: Open source game under MIT license 
+- title: 👌 Free & Easy Self-Host
+  details: Open source game under MIT license. \n Follow the guide (15 min) 
 - title: 🎮 Multiplayer live
   details: Play with your friends simultaneously
-- title: 👌 Easy Self-Host
-  details: Follow the guide
 - title: 🔠 Translate
-  details: English, French, Czech, Deutsch and more soon
+  details: English, French, Czech, Deutsch, Russian and more soon
+- title: 🏴‍☠️ Mode Country
+  details: "Mode TimeAttack : The first player who guess a country true won the round" 
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🐙 and more
