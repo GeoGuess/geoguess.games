@@ -8,7 +8,7 @@ actionText: Guide →
 actionLink: /guide/
 features:
 - title: 👌 Free & Easy Self-Host
-  details: Open source game under MIT license. \n Follow the guide (15 min) 
+  details: Open source game under MIT license. Follow the guide (15 min) 
 - title: 🎮 Multiplayer live
   details: Play with your friends simultaneously
 - title: 🔠 Translate
