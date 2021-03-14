@@ -34,6 +34,31 @@ Il vous sera demandé de saisir des variables d'environnement, vous retrouverez 
 > Vous pouvez définir un quota et une restriction d'url
 
 
+> Comme GeoGuess est une web app front, des visteurs mal attentionnés peuvent voler votre "Google API key" et l'utiliser. 
+> Vous DEVEZ définir des quotas et des restrictions. 
+> Si vous le pouvez ajouter des protections sur votre site (.htaccess)
+
+#### Quotas & restrictions
+
+##### Clés API (dans "Identifiants")
+ !["Identifiants"](../../img/security/security-1.jpg)
+
+1. Sous "Restrictions relatives aux applications", choisir "Référents HTTP (sites Web)"
+
+2. Ajouter des restrictions pour limiter à l'usage de votre site WEB (1): 
+N'oubliez pas d'ajouter une "*" après "/" pour inclure toutes les urls de votre site.
+   
+3. Restreindre l'API activé : "Maps JavaScript API" (2)
+ !["Identifiants"](../../img/security/security-2.jpg)
+
+##### Quotas	
+ 1. Rechercher "quotas google maps" dans la barre de recherche
+ 2. Selectionner "Maps JavaScript API" a côté du titre "Quotas"
+ 2. Ouvrir "Map loads" via l'icône ">"
+ 3. Définir les limites. Pour la démo, "Map loads par jour" est défini à 500
+
+ !["Limits"](../../img/security/security-4.jpg)
+
 > Plus d'infos : [https://developers.google.com/maps/gmp-get-started](https://developers.google.com/maps/gmp-get-started)
 
 ### 2.2) Firebase (multijoueur)

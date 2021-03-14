@@ -30,7 +30,32 @@ It will be ask to give Environment variables, we will explain how to create and 
 
 2. In the "MarketPlace", activate "Maps JavaScript API"
 3. In "Identifiants", generate on API key. This key will be your `VUE_APP_API_KEY`
-> You can define quota et restriction
+
+> Since GeoGuess is web app front, malicious visitors can stroll your Google API key and use it.
+> You MUST define quotas et restrictions.
+> If you can add access control on your website (.htaccess)
+
+#### Quotas & restrictions
+
+##### Key restrictions (in "Identifiants")
+ !["Identifiants"](../img/security/security-1.jpg)
+
+1. Under "Application restrictions" set "HTTP referrers (websites)"
+
+2. Add website restrictions to your game server URL (1): Do not forget to add "*" after "/" to includes all URLs.
+   
+3. Restrict key to "Maps JavaScript API" (2)
+ !["Identifiants"](../img/security/security-2.jpg)
+
+##### Quotas	
+ 1. In the search box, tape "quotas google maps"
+ 2. Select "Maps JavaScript API" next to the title "Quotas"
+ 2. Open Map loads Panel with ">"
+ 3. Set limits. For the demo, "Map loads per day" is set to 500
+
+ !["Limits"](../img/security/security-4.jpg)
+
+
 
 > More information : [https://developers.google.com/maps/gmp-get-started](https://developers.google.com/maps/gmp-get-started)
 
