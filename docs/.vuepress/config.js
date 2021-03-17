@@ -37,7 +37,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-
+    
 ],
 
   /**
@@ -146,6 +146,12 @@ module.exports = {
         {
             'ga': 'UA-167347365-1' // UA-00000000-0
         }
-    ]
+    ],
+    [
+      "vuepress-plugin-google-adsense",
+      {
+        adClient: "ca-pub-3283982605864712", 
+      },
+    ],
   ]
 }
