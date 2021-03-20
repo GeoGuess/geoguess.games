@@ -43,7 +43,18 @@
               <p>{{ feature.details }}</p>
           </div>
         </div>
+        <!-- Bandeau -->
+        <ins class="adsbygoogle"
+            style="display:block; margin: auto;"
+            data-ad-client="ca-pub-3283982605864712"
+            data-ad-slot="6943902825"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
+    
         <div         
         class="blocks"
         v-if="data.blocks && data.blocks.length"
