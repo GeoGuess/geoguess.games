@@ -66,12 +66,19 @@ module.exports = {
           '/guide/': [
             {
               title: 'Guide',
-              collapsable: true,
+              collapsable: false,
               children: [
                 '',
                 '/guide/instructions',
-                '/guide/maps',
-                '/guide/update'
+                '/guide/update',
+                '/guide/twa',
+              ]
+            },
+            {
+              title: 'Contribution',
+              collapsable: false,
+              children: [
+                '/guide/dev/maps'
               ]
             }
           ],
