@@ -86,10 +86,10 @@
           <div id="content"></div>
     <script>
    window.cookieconsent.initialise({
-    container: document.getElementById("content"),
+    container: document.getElementById('content'),
     palette:{
-     popup: {background: "#fff"},
-     button: {background: "#aa0000"},
+     popup: {background: '#fff'},
+     button: {background: '#aa0000'},
     },
     revokable:true,
     onStatusChange: function(status) {
