@@ -72,6 +72,25 @@
         <a href="https://www.netlify.com">This site is powered by Netlify</a></p>
         
         </div>
+          <div id="content"></div>
+    <script>
+   window.cookieconsent.initialise({
+    container: document.getElementById("content"),
+    palette:{
+     popup: {background: "#fff"},
+     button: {background: "#aa0000"},
+    },
+    revokable:true,
+    onStatusChange: function(status) {
+     console.log(this.hasConsented() ?
+      'enable cookies' : 'disable cookies');
+    },
+    law: {
+     regionalLaw: true,
+    },
+    location: true,
+   });
+  </script>
     </div>
     </div>
 </div>
