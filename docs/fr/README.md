@@ -12,7 +12,7 @@ features:
 - title: 🎮 Multijoueurs sans délai
   details: Jouez avec vos amis en simultanée
 - title: 🔠 Traduction
-  details: Anglais, Français, Tchéque, Allemand, Russe et bientôt plus
+  details: Anglais, Français, Tchéque, Allemand, Russe, Portugais, Suédois ...
 - title: 🏴‍☠️ Mode Pays
   details: "Mode TimeAttack : le 1er joueurs qui devine le bon pays game la manche" 
 - title: 🌎 Carte personnalisable

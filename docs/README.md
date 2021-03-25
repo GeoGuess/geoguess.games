@@ -12,7 +12,7 @@ features:
 - title: 🎮 Multiplayer live
   details: Play with your friends simultaneously
 - title: 🔠 Translate
-  details: English, French, Czech, Deutsch, Russian and more soon
+  details: English, French, Czech, Deutsch, Russian, Portuguese, Swedish ...
 - title: 🏴‍☠️ Mode Country
   details: "Mode TimeAttack beta" 
 - title: 🌎 Customs Map
