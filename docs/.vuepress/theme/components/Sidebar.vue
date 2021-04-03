@@ -38,6 +38,7 @@ export default {
 .sidebar
   .sidebar-ad
     display flex
+    justify-content center
   ul
     padding 0
     margin 0
