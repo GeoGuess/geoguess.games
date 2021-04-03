@@ -9,15 +9,15 @@
       :items="items"
     />
     <slot name="bottom" />
-    <ins class="adsbygoogle"
-     style="display:block;margin: auto"
-     data-ad-client="ca-pub-3283982605864712"
-     data-ad-slot="3788687068"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-    <script>
+    <div class="sidebar-ad">
+        <ins class="adsbygoogle"
+         style="display:inline-block;width:250px;height:250px"
+         data-ad-client="ca-pub-3283982605864712"
+         data-ad-slot="3788687068"></ins>
+        <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+        </script>
+    </div>
   </aside>
 </template>
 
@@ -36,6 +36,8 @@ export default {
 
 <style lang="stylus">
 .sidebar
+  .sidebar-ad
+    display flex
   ul
     padding 0
     margin 0
