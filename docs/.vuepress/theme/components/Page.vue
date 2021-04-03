@@ -3,6 +3,10 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
+
+    <PageEdit />
+
+    <PageNav v-bind="{ sidebarItems }" />
     <ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
@@ -12,10 +16,6 @@
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-    <PageEdit />
-
-    <PageNav v-bind="{ sidebarItems }" />
-
     <slot name="bottom" />
   </main>
 </template>
