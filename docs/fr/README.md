@@ -1,5 +1,4 @@
 ---
-layout: HomeLayout
 home: true
 heroText: GeoGuess
 heroImage: ../img/icons/android-icon-144x144.png
