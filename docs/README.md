@@ -13,11 +13,11 @@ features:
 - title: 🔠 Translate
   details: English, French, Czech, Deutsch, Russian, Portuguese, Swedish ...
 - title: 🏴‍☠️ Mode Country
-  details: "Mode TimeAttack beta" 
+  details: "Mode TimeAttack, Countdown" 
 - title: 🌎 Customs Map
   details: Build et customs your maps
 - title: 🐙 and more
-  details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
+  details: 📽 Streamer, 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 blocks:
 - title: How to play ?
   text: |

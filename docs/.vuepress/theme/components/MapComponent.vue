@@ -164,5 +164,11 @@ export default {
 .action-button:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 425px){
+  .deploy_menu{
+    flex-direction: column;
+  }
+}
 </style>
 

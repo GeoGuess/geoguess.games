@@ -4,6 +4,10 @@ const nav = (prefix) => [
   {
     text: 'Guide',
     link: `${prefix}/guide/`,
+    items: [
+      { text: 'Installation', link: `${prefix}/guide/`},
+      { text: 'Maps', link: `/guide/dev/maps` }
+    ]
   },
   {
     text: 'Demo',
@@ -49,7 +53,7 @@ module.exports = {
     repoLabel: 'Contribute',
     repo: 'https://github.com/GeoGuess/GeoGuess/contribute',
     search: true,
-	docsRepo: 'GeoGuess/geoguess.games',
+	  docsRepo: 'GeoGuess/geoguess.games',
     docsDir: 'docs',
     editLinks: true,
     lastUpdated: true,
