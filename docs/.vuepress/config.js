@@ -78,7 +78,8 @@ module.exports = {
               title: 'Contribution',
               collapsable: false,
               children: [
-                '/guide/dev/maps'
+                '/guide/dev/maps',
+                '/guide/dev/areas'
               ]
             }
           ],

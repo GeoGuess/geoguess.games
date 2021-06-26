@@ -3,16 +3,16 @@ sidebarDepth: 3
 ---
 # Maps 
 ## GeoJSON format
-GeoGuess use [GeoJSON format](https://geojson.org/) to specify maps where you are playing.
+GeoGuess uses [GeoJSON format](https://geojson.org/) to specify maps where you are playing.
 
 
-In **FeatureCollection**, you ara allowed to add :
+In **FeatureCollection**, you can add (only):
  - `Feature<Point>`
  - `Feature<Polygon>`
  - `Feature<MultiPolygon>`
 
 ### Round Details
-A feature, could have properties inforamtions, with title, description and link.
+A feature could have properties: title, description and link.
 
 ```json
 {"type":"FeatureCollection","features":[
@@ -58,7 +58,7 @@ interface object {
 
 ## Maps list
 
-You can add your custom maps to the homepage in the JSON file on the [Github Maps Repo](https://github.com/GeoGuess/GeoGuess-Maps/blob/main/maps.json).
+You can add your custom maps to the homepage in the JSON file on the [Github Maps Repo](https://github.com/GeoGuess/GeoGuess-Maps/blob/main/maps.json), under `maps`.
 
 ```json
     {
