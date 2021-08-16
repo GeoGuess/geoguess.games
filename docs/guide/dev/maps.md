@@ -45,7 +45,7 @@ interface object {
         "properties": {
             "title": "Sainte-Léocadie",
             "description": {
-                "fr": "un ville",
+                "fr": "une ville",
                 "en": "a city"
             },
             "link": "http://www.sainte-leocadie.fr/"
