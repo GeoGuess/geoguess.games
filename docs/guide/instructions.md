@@ -37,15 +37,15 @@ It will be ask to give Environment variables, we will explain how to create and 
 
 #### Quotas & restrictions
 
-##### Key restrictions (in "Identifiants")
- !["Identifiants"](../img/security/security-1.jpg)
+##### Key restrictions (in "Credentials")
+ !["Credentials"](../img/security/security-1.jpg)
 
 1. Under "Application restrictions" set "HTTP referrers (websites)"
 
 2. Add website restrictions to your game server URL (1): Do not forget to add "*" after "/" to includes all URLs.
    
 3. Restrict key to "Maps JavaScript API" (2)
- !["Identifiants"](../img/security/security-2.jpg)
+ !["Credentials"](../img/security/security-2.jpg)
 
 ##### Quotas	
  1. In the search box, tape "quotas google maps"
