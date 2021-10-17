@@ -6,12 +6,87 @@ media_folder: ".vuepress/public/"
 public_folder: "../../"
 display_url: https://geoguess.games/
 collections:
-  - name: "Doc" # Used in routes, e.g., /admin/collections/blog
-    label: "Doc" # Used in the UI
-    folder: "docs" # The path to the folder where the documents are stored
+  - label: "Home"
+    name: "home"
+    files:
+      - name: "Home EN"
+        label: "Home"
+        file: "docs/README.md"
+        slug: "{{slug}}" 
+        show_preview_links: true
+        fields:
+          - {label: "Title", name: "heroText", widget: "string"}
+          - {label: "tagline", name: "tagline", widget: "string"}
+          - {label: "actionText", name: "actionText", widget: "string"}
+          - label: "Features"
+            name: "fetures"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+             - {label: "Title", name: "title", widget: "string"}
+             - {label: "details", name: "details", widget: "string"}
+          - label: "blocks"
+            name: "blocks"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+             - {label: "Title", name: "title", widget: "string"}
+             - {label: "text", name: "text", widget: "string"}
+             - {label: "altImg", name: "altImg", widget: "string"}
+             - {label: "srcImg", name: "srcImg", widget: image}
+          - {label: "footer", name: "footer", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - name: "Home FR"
+        label: "Home"
+        file: "docs/fr/README.md"
+        slug: "{{slug}}" 
+        show_preview_links: true
+        fields:
+          - {label: "Title", name: "heroText", widget: "string"}
+          - {label: "tagline", name: "tagline", widget: "string"}
+          - {label: "actionText", name: "actionText", widget: "string"}
+          - label: "Features"
+            name: "fetures"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+             - {label: "Title", name: "title", widget: "string"}
+             - {label: "details", name: "details", widget: "string"}
+          - label: "blocks"
+            name: "blocks"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+             - {label: "Title", name: "title", widget: "string"}
+             - {label: "text", name: "text", widget: "string"}
+             - {label: "altImg", name: "altImg", widget: "string"}
+             - {label: "srcImg", name: "srcImg", widget: image}
+          - {label: "footer", name: "footer", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Guide" # Used in routes, e.g., /admin/collections/blog
+    label: "Guide" # Used in the UI
+    folder: "docs/guide" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     show_preview_links: true
     fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Dev"
+    label: "Dev"
+    folder: "docs/guide/dev" 
+    create: true 
+    slug: "{{slug}}" 
+    show_preview_links: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Guide FR" 
+    label: "Doc" 
+    folder: "docs/guide"
+    create: true 
+    slug: "{{slug}}" 
+    show_preview_links: true
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
