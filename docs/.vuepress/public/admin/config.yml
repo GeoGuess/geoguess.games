@@ -3,7 +3,7 @@ backend:
   repo: GeoGuess/Geoguess.games
   branch: master
 media_folder: ".vuepress/public/"
-public_folder: "../../"
+public_folder: "/"
 display_url: https://geoguess.games/
 collections:
   - label: "Home"
