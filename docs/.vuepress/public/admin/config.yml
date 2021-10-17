@@ -10,7 +10,7 @@ collections:
     name: "home"
     files:
       - name: "Home EN"
-        label: "Home"
+        label: "Home EN"
         file: "docs/README.md"
         slug: "{{slug}}" 
         show_preview_links: true
@@ -19,7 +19,7 @@ collections:
           - {label: "tagline", name: "tagline", widget: "string"}
           - {label: "actionText", name: "actionText", widget: "string"}
           - label: "Features"
-            name: "fetures"
+            name: "features"
             widget: "list"
             summary: '{{fields.title}}'
             fields:
@@ -37,16 +37,16 @@ collections:
           - {label: "footer", name: "footer", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - name: "Home FR"
-        label: "Home"
+        label: "Home FR"
         file: "docs/fr/README.md"
-        slug: "{{slug}}" 
+        slug: "{{slug}}"
         show_preview_links: true
         fields:
           - {label: "Title", name: "heroText", widget: "string"}
           - {label: "tagline", name: "tagline", widget: "string"}
           - {label: "actionText", name: "actionText", widget: "string"}
           - label: "Features"
-            name: "fetures"
+            name: "features"
             widget: "list"
             summary: '{{fields.title}}'
             fields:
@@ -69,6 +69,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     show_preview_links: true
+    summary: "{{filename}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -77,6 +78,7 @@ collections:
     folder: "docs/guide/dev" 
     create: true 
     slug: "{{slug}}" 
+    summary: "{{filename}}"
     show_preview_links: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -86,6 +88,7 @@ collections:
     folder: "docs/guide"
     create: true 
     slug: "{{slug}}" 
+    summary: "{{filename}}"
     show_preview_links: true
     fields: 
       - {label: "Title", name: "title", widget: "string"}
