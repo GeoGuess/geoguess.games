@@ -1,14 +1,17 @@
 ---
 sidebarDepth: 3
+title: Areas
 ---
-# Areas  <Badge text="beta" type="warning"/> 
-## GeoJSON format
-GeoGuess uses [GeoJSON format](https://geojson.org/) to specify maps where you are playing.
+# Areas  <Badge text="beta" type="warning"/>
 
+## GeoJSON format
+
+GeoGuess uses [GeoJSON format](https://geojson.org/) to specify maps where you are playing.
 
 In `FeatureCollection` > `Feature<Polygon>`
 
 ### Area Details
+
 A feature must have one property.
 
 ```json
@@ -39,6 +42,7 @@ You can add your custom area mode to the homepage in the JSON file on the [Githu
     "data": AreasModeObject
 }
 ```
+
 ## AreasModeObject
 
 ```json
@@ -53,27 +57,29 @@ You can add your custom area mode to the homepage in the JSON file on the [Githu
 }
 ```
 
-- **urlArea**: url of the areas GeoJSON
-- **pathKey**: path of the property key
-    - Examples :
-        ```json
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "New York", // 'name'
-                "state":{
-                    "name": "New York", // "state.name"
-                }
-            },
-        }
-        ```
-- **bbox** *(optional)*: bounding box of the area mode. Player aren't allow to play outside.
+* **urlArea**: url of the areas GeoJSON
+* **pathKey**: path of the property key
+
+  * Examples :
+
+    ```json
+    {
+        "type": "Feature",
+        "properties": {
+            "name": "New York", // 'name'
+            "state":{
+                "name": "New York", // "state.name"
+            }
+        },
+    }
+    ```
+* **bbox** *(optional)*: bounding box of the area mode. Player aren't allow to play outside.
 
 ### Type: nominatim
 
 Use [Reverse Geocoding](https://nominatim.org/release-docs/develop/api/Reverse/) of Nominatim.org, to determine the area of the random latitude, longitude.
 
- 1. Define query params of the request with `nominatimQueryParams`
+1. Define query params of the request with `nominatimQueryParams`
 
 ```js
 fetch(
@@ -81,9 +87,11 @@ fetch(
 )
 ```
 
- 2. Get the key in the response with `nominatimResultPath`
+2. Get the key in the response with `nominatimResultPath`
+> You can define fallback with `nominatimFallbackResultPath`
 
 Example: 
+
 ```json
 "nominatimQueryParams": {
   "zoom": "5",
@@ -92,7 +100,6 @@ Example:
 },
 "nominatimResultPath": "address.state",
 ```
-
 
 ### Type: polygon
 
@@ -106,30 +113,26 @@ Check if the random location is in the GeoJson `Feature<Polygon>` automatically.
 }
 ```
 
-
 ## Example
-````json
+
+```json
 {
-  "name": "US States",
-  "author": "BilelJegham",
+  "name": "Mexico States",
+  "description": "",
+  "author": "BilelJegham, angelnmara",
   "data": {
-    "bbox": [
-      -171.79111060289117, 18.916190000000142, -66.96466, 71.35776357694175
-    ],
-    "urlArea": "https://raw.githubusercontent.com/martynafford/natural-earth-geojson/master/110m/cultural/ne_110m_admin_1_states_provinces.json",
-    "type": "nominatim",
-    "pathKey": "name",
-    "nominatimResultPath": "address.state",
-    "nominatimQueryParams": {
-      "zoom": "5",
-      "addressdetails": "1",
-      "accept-language": "en"
-    }
+     "bbox": [-118.366000,14.534700,-86.723700,32.718200],
+     "urlArea": "https://raw.githubusercontent.com/GeoGuess/GeoGuess-Maps/main/public/geojson/areas/mexico_states.geojson",
+     "type": "nominatim",
+     "pathKey": "name",
+     "nominatimResultPath": "address.state",
+     "nominatimFallbackResultPath": "display_name",
+     "nominatimQueryParams": {
+        "zoom": "5",
+        "accept-language": "es"
+     }
   }
 },
-````
-
-
-
+```
 
 <!--imageSocial"https://geoguess.games/img/social.jpg"-->
