@@ -2,7 +2,7 @@
 sidebarDepth: 3
 title: Areas
 ---
-# Areas  <Badge text="beta" type="warning"/>
+# Areas
 
 ## GeoJSON format
 
@@ -88,7 +88,8 @@ fetch(
 ```
 
 2. Get the key in the response with `nominatimResultPath`
-> You can define fallback with `nominatimFallbackResultPath`
+
+   > You can define fallback with `nominatimFallbackResultPath`
 
 Example: 
 
