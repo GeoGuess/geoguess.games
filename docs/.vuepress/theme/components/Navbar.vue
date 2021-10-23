@@ -17,9 +17,10 @@
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      ><a href="https://geoguess.games/">{{ $siteTitle }}</a> 
-      <a target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
-  </span>
+      >
+        <a href="https://geoguess.games/">{{ $siteTitle }}</a> 
+        <a target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
+      </span>
     </RouterLink>
 
     <div
