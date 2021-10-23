@@ -21,7 +21,7 @@
         {{ $siteTitle }}
       </span>
     </RouterLink>
-    <a target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
+    <a class="can-hide" target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
 
     <div
       class="links"
