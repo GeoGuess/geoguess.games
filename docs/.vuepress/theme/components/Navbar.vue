@@ -19,7 +19,7 @@
         :class="{ 'can-hide': $site.themeConfig.logo }"
       >
         {{ $siteTitle }}
-        <a target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/>
       </span>
     </RouterLink>
 
