@@ -10,6 +10,8 @@
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
+        width="144"
+        height="144"
         :alt="data.heroAlt || 'hero'"
       >
 
@@ -144,6 +146,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .deploy_menu a{
   margin: 0 5%;

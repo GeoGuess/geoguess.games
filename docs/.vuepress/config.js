@@ -17,10 +17,6 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'GeoGuess',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: 'GeoGuess is an open-source geography game with Google Map StreetView. You can play solo or with your friends simultaneously.',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -46,10 +42,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repoLabel: 'Contribute',
     repo: 'https://github.com/GeoGuess/GeoGuess/contribute',
     search: true,
-	docsRepo: 'GeoGuess/geoguess.games',
+	  docsRepo: 'GeoGuess/geoguess.games',
     docsDir: 'docs',
     editLinks: true,
     lastUpdated: true,
@@ -91,7 +86,7 @@ module.exports = {
         selectText: 'Langue',
         ariaLabel: 'Selectionner une langue',
         editLinkText: 'Editer cette page sur Github',
-        lastUpdated: 'Dernière modification',     
+        lastUpdated: 'Dernière modification',
         nav: nav('/fr'),
         sidebar: {
           '/fr/guide/': [
@@ -112,12 +107,12 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'GeoGuess',
-      description: 'OpenSource game with Google Map StreetView.'
+      description: 'OpenSource game with Google Map StreetView.',
     },
     '/fr/': {
       lang: 'fr-FR',
       title: 'GeoGuess',
-      description: 'Un jeu Open Source avec Google Map StreetView.'
+      description: 'GeoGuess est un jeu de géographie open-souce avec Google Map StreetView. Vous pouvez jouer en solo ou avec des amis en simultané.',
     }
   },
 

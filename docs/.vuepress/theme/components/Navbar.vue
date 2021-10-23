@@ -17,7 +17,8 @@
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }} <iframe src="https://ghbtns.com/github-btn.html?user=Geoguess&repo=Geoguess&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+      ><a href="https://geoguess.games/">{{ $siteTitle }}</a> 
+      <a target="_blank" href="https://github.com/GeoGuess/GeoGuess/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GeoGuess/GeoGuess?style=social"/></a>
   </span>
     </RouterLink>
 
