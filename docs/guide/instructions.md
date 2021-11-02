@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 3
+title: Title
 ---
 # GeoGuess Deployment Instructions
 
@@ -12,6 +13,8 @@ You can deploy the game with :
 
 
 It will be ask to give Environment variables, we will explain how to create and find them.
+
+> For hosting in subfolder like Github/Gitlab pages, use environnement variable `VUE_APP_PUBLIC_PATH`
 
 ## 2) Environment variables
 ### 2.1) Google Map
