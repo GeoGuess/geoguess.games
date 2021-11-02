@@ -81,15 +81,13 @@ collections:
     summary: "{{filename}}"
     show_preview_links: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Guide FR" 
     label: "Doc" 
-    folder: "docs/guide"
+    folder: "docs/fr/guide"
     create: true 
     slug: "{{slug}}" 
     summary: "{{filename}}"
     show_preview_links: true
     fields: 
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
