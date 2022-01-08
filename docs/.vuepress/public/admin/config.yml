@@ -80,6 +80,7 @@ collections:
     summary: "{{filename}}"
     show_preview_links: true
     fields:
+      - {label: "Title", name: "heroText", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Guide FR" 
     label: "Doc" 
@@ -89,4 +90,5 @@ collections:
     summary: "{{filename}}"
     show_preview_links: true
     fields: 
+      - {label: "Title", name: "heroText", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
