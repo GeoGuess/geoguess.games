@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 3
-title: Title
+title: GeoGuess Deployment Instructions
 ---
 # GeoGuess Deployment Instructions
 
