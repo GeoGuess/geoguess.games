@@ -104,12 +104,12 @@ module.exports = {
   },
   locales: {
     '/': {
-      lang: 'en-US',
+      lang: 'en',
       title: 'GeoGuess',
       description: 'GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
     },
     '/fr/': {
-      lang: 'fr-FR',
+      lang: 'fr',
       title: 'GeoGuess',
       description: 'GeoGuess est un jeu de géographie open-souce avec Google Map Street View. Vous pouvez jouer en solo ou avec des amis en simultané.',
     }
