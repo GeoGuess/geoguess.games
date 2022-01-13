@@ -1,4 +1,3 @@
-const { description } = require('../../package')
 
 const nav = (prefix) => [
   {
@@ -107,12 +106,12 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'GeoGuess',
-      description: 'OpenSource game with Google Map StreetView.',
+      description: 'GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
     },
     '/fr/': {
       lang: 'fr-FR',
       title: 'GeoGuess',
-      description: 'GeoGuess est un jeu de géographie open-souce avec Google Map StreetView. Vous pouvez jouer en solo ou avec des amis en simultané.',
+      description: 'GeoGuess est un jeu de géographie open-souce avec Google Map Street View. Vous pouvez jouer en solo ou avec des amis en simultané.',
     }
   },
 
@@ -130,6 +129,7 @@ module.exports = {
       hostname: 'https://geoguess.games/'
     }],
     [ 'autometa', {
+        canonical_base: 'https://geoguess.games/',
         site: {
             name   : 'GeoGuess',
         },  

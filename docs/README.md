@@ -1,7 +1,7 @@
 ---
 heroImage: ../img/icons/android-icon-144x144.png
 heroText: GeoGuess
-tagline: OpenSource game with Google Map StreetView
+tagline: OpenSource geographic game with Google Map StreetView
 actionText: Guide →
 blocks:
   - title: How to play ?
