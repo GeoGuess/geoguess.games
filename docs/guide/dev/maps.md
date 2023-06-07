@@ -1,17 +1,21 @@
 ---
 sidebarDepth: 3
+heroText: maps
 ---
-# Maps 
+# Maps
+
 ## GeoJSON format
+
 GeoGuess uses [GeoJSON format](https://geojson.org/) to specify maps where you are playing.
 
-
 In **FeatureCollection**, you can add (only):
- - `Feature<Point>`
- - `Feature<Polygon>`
- - `Feature<MultiPolygon>`
+
+* `Feature<Point>`
+* `Feature<Polygon>`
+* `Feature<MultiPolygon>`
 
 ### Round Details
+
 A feature could have properties: title, description and link.
 
 ```json
@@ -27,13 +31,16 @@ A feature could have properties: title, description and link.
     }
 ]}
 ```
+
 ```ts
 interface object {
     [language string]: string
 }
 ```
+
 #### Examples
-````json
+
+```json
 {
     "type": "FeatureCollection",
     "features": [{
@@ -52,13 +59,14 @@ interface object {
         }
     }]
 }
-````
-- French station (source [https://ressources.data.sncf.com/](https://ressources.data.sncf.com/))
+```
+
+* French station (source <https://ressources.data.sncf.com/>)
   : [GeoJSON](https://gist.githubusercontent.com/BilelJegham/891f976fac2017ae19e699991aba4f01/raw/19bfe072be8762e93142b56eddecf83b967f7d9d/referentiel-gares-voyageurs-min.geojson)
 
 ## Maps list
 
-You can add your custom maps to the homepage in the JSON file on the [Github Maps Repo](https://github.com/GeoGuess/GeoGuess-Maps/blob/main/maps.json), under `maps`.
+You can add your custom maps to the homepage in the JSON file on the [Github Maps Repo](https://github.com/GeoGuess/GeoGuess-Maps/blob/main/maps.json). 
 
 ```json
     {
@@ -69,7 +77,5 @@ You can add your custom maps to the homepage in the JSON file on the [Github Map
         "url": urlGeoJSON
     }
 ```
-
-
 
 <!--imageSocial"https://geoguess.games/img/social.jpg"-->
