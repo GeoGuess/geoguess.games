@@ -1,0 +1,29 @@
+---
+sidebarDepth: 3
+heroText: traduction
+---
+# Contribuer en tant que traducteur
+
+GeoGuess est un projet open-source qui accueille les contributions des traducteurs du monde entier. Si vous souhaitez aider à rendre GeoGuess disponible dans davantage de langues ou améliorer les traductions existantes, vous pouvez contribuer via notre projet Crowdin.
+
+## Comment contribuer
+
+1. Visitez notre plateforme de traduction : [http://translate.geoguess.games/](http://translate.geoguess.games/)
+2. Créez un compte Crowdin gratuit ou connectez-vous avec votre compte existant
+3. Sélectionnez la langue vers laquelle vous souhaitez traduire
+4. Commencez à traduire ! Vous pouvez proposer de nouvelles traductions ou voter pour celles existantes
+
+## Pourquoi contribuer ?
+
+- Aidez à rendre GeoGuess accessible aux joueurs du monde entier
+- Améliorez la qualité des traductions dans votre langue
+- Rejoignez une communauté de contributeurs
+- Vos contributions seront créditées dans le projet
+
+## Questions ?
+
+Si vous avez des questions sur le processus de traduction, n'hésitez pas à contacter la communauté GeoGuess ou à consulter la documentation Crowdin.
+
+Merci de contribuer à améliorer GeoGuess pour tout le monde ! 🌍
+
+<!--imageSocial"https://geoguess.games/img/social.jpg"-->

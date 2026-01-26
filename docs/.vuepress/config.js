@@ -74,6 +74,7 @@ module.exports = {
               title: 'Contribution',
               collapsable: false,
               children: [
+                '/guide/translating',
                 '/guide/dev/maps',
                 '/guide/dev/areas'
               ]
@@ -97,6 +98,13 @@ module.exports = {
               children: [
                 '',
                 '/fr/guide/instructions',
+              ]
+            },
+            {
+              title: 'Contribution',
+              collapsable: true,
+              children: [
+                '/fr/guide/translating',
               ]
             }
           ],
