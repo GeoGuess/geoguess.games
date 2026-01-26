@@ -30,6 +30,8 @@ Thank you for helping make GeoGuess better for everyone! 🌍
 
 ## Translation Progress
 
+Track the current translation status for all languages:
+
 <a href="https://crowdin.com/project/geoguess" target="_blank">
   <img src="https://badges.crowdin.net/geoguess/localized.svg" alt="Crowdin translation status" />
 </a>

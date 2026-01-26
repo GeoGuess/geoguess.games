@@ -30,6 +30,8 @@ Merci de contribuer à améliorer GeoGuess pour tout le monde ! 🌍
 
 ## Progression des traductions
 
+Suivez l'état actuel des traductions pour toutes les langues :
+
 <a href="https://crowdin.com/project/geoguess" target="_blank">
   <img src="https://badges.crowdin.net/geoguess/localized.svg" alt="Statut des traductions Crowdin" />
 </a>
