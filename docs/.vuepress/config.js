@@ -32,7 +32,9 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['script', {src:"https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"}]
+    ['script', {src:"https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"}],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-432SV6EFJC' }],
+    ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-432SV6EFJC');"]
 ],
 
   /**
@@ -144,12 +146,6 @@ module.exports = {
 			/<img.*?src=['"](.*?)['"]/i,
         ]
     } ],
-    [
-        '@vuepress/google-analytics',
-        {
-            'ga': 'G-432SV6EFJC' // UA-00000000-0
-        }
-    ],
     [
       "vuepress-plugin-google-adsense",
       {
