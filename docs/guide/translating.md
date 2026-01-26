@@ -13,6 +13,8 @@ GeoGuess is an open-source project that welcomes contributions from translators 
 3. Select the language you want to translate to
 4. Start translating! You can suggest new translations or vote on existing ones
 
+If your language is not available, you can request to add it by contacting the project maintainers on the Crowdin platform.
+
 ## Why Contribute?
 
 - Help make GeoGuess accessible to players worldwide
@@ -22,8 +24,14 @@ GeoGuess is an open-source project that welcomes contributions from translators 
 
 ## Questions?
 
-If you have any questions about the translation process, feel free to reach out to the GeoGuess community or check the Crowdin documentation.
+For more information about the translation process, please refer to the [official Crowdin guide for translators](https://support.crowdin.com/for-translators/).
 
 Thank you for helping make GeoGuess better for everyone! 🌍
+
+## Translation Progress
+
+<a href="https://crowdin.com/project/geoguess" target="_blank">
+  <img src="https://badges.crowdin.net/geoguess/localized.svg" alt="Crowdin translation status" />
+</a>
 
 <!--imageSocial"https://geoguess.games/img/social.jpg"-->
