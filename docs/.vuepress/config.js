@@ -100,7 +100,7 @@ module.exports = {
           '/fr/guide/': [
             {
               title: 'Guide',
-              collapsable: true,
+              collapsable: false,
               children: [
                 '',
                 '/fr/guide/instructions',
@@ -108,7 +108,7 @@ module.exports = {
             },
             {
               title: 'Contribution',
-              collapsable: true,
+              collapsable: false,
               children: [
                 '/fr/guide/translating',
               ]
