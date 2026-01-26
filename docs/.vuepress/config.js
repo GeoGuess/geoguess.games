@@ -75,8 +75,14 @@ module.exports = {
               collapsable: false,
               children: [
                 '/guide/translating',
-                '/guide/dev/maps',
-                '/guide/dev/areas'
+                {
+                  title: 'Contributing as Mapper',
+                  collapsable: false,
+                  children: [
+                    '/guide/dev/maps',
+                    '/guide/dev/areas'
+                  ]
+                }
               ]
             }
           ],
