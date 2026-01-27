@@ -2,6 +2,7 @@
 heroImage: ../img/icons/android-icon-144x144.png
 heroText: GeoGuess
 tagline: OpenSource geographic game with Google Map StreetView
+description: GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are in the world. Play with friends simultaneously.
 actionText: Guide →
 blocks:
   - title: How to play ?
