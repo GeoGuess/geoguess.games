@@ -24,6 +24,9 @@ module.exports = {
    */
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    ['meta', { name: 'keywords', content: 'GeoGuess, geography game, Google Maps, Street View, multiplayer game, open source game, geolocation, guessing game, educational game' }],
+    ['meta', { name: 'author', content: 'Bilel Jegham' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'apple-touch-icon', href: '/img/icons/apple-icon-152x152.png' }],
@@ -32,9 +35,29 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { name: 'twitter:site', content: '@BilelJegham' }],
     ['script', {src:"https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"}],
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-432SV6EFJC' }],
-    ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-432SV6EFJC');"]
+    ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-432SV6EFJC');"],
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "GeoGuess",
+      "url": "https://geoguess.games/",
+      "description": "GeoGuess is an open-source geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "GeoGuess",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://geoguess.games/img/icons/android-icon-192x192.png"
+        }
+      },
+      "inLanguage": ["en-US", "fr-FR"]
+    })]
 ],
 
   /**
@@ -120,14 +143,14 @@ module.exports = {
   },
   locales: {
     '/': {
-      lang: 'en',
+      lang: 'en-US',
       title: 'GeoGuess',
-      description: 'GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
+      description: 'GeoGuess is an open-source geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
     },
     '/fr/': {
-      lang: 'fr',
+      lang: 'fr-FR',
       title: 'GeoGuess',
-      description: 'GeoGuess est un jeu de géographie open-souce avec Google Map Street View. Vous pouvez jouer en solo ou avec des amis en simultané.',
+      description: 'GeoGuess est un jeu de géographie open-source avec Google Map Street View. Vous pouvez jouer en solo ou avec des amis en simultané.',
     }
   },
 
@@ -155,7 +178,7 @@ module.exports = {
         },
          image_sources: [
              /<!--imageSocial["'](.*?)['"]/i,
-             
+             'frontmatter',
 			/!\[.*?\]\((.*?)\)/i,					// markdown image regex
 			/<img.*?src=['"](.*?)['"]/i,
         ]
