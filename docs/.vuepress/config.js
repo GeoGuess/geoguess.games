@@ -29,14 +29,12 @@ module.exports = {
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'canonical', href: 'https://geoguess.games/' }],
     ['link', { rel: 'apple-touch-icon', href: '/img/icons/apple-icon-152x152.png' }],
     ['meta', { name: 'msapplication-TileImage', content: '/img/icons/ms-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
@@ -49,7 +47,7 @@ module.exports = {
       "@type": "WebSite",
       "name": "GeoGuess",
       "url": "https://geoguess.games/",
-      "description": "GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.",
+      "description": "GeoGuess is an open-source geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.",
       "publisher": {
         "@type": "Organization",
         "name": "GeoGuess",
@@ -57,11 +55,6 @@ module.exports = {
           "@type": "ImageObject",
           "url": "https://geoguess.games/img/icons/android-icon-192x192.png"
         }
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://geoguess.games/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
       },
       "inLanguage": ["en-US", "fr-FR"]
     })]
@@ -152,7 +145,7 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'GeoGuess',
-      description: 'GeoGuess is an OpenSource geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
+      description: 'GeoGuess is an open-source geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are.',
     },
     '/fr/': {
       lang: 'fr-FR',
