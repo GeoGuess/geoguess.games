@@ -1,5 +1,5 @@
 {
- "name": "GeoGuess - Open-Source Geographic Game",
+ "name": "GeoGuess Documentation - Open-Source Geographic Game",
  "short_name": "GeoGuess",
  "description": "GeoGuess is an open-source geographic game with Google Map Street View. Play single or multiplayer rounds and guess where you are in the world.",
  "icons": [
@@ -49,4 +49,5 @@
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#071D3E"
+
 }
