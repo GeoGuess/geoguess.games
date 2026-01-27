@@ -25,6 +25,8 @@ module.exports = {
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'keywords', content: 'GeoGuess, geography game, Google Maps, Street View, multiplayer game, open source game, geolocation, guessing game, educational game' }],
+    ['meta', { name: 'author', content: 'Bilel Jegham' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'canonical', href: 'https://geoguess.games/' }],
@@ -36,6 +38,9 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { name: 'twitter:site', content: '@BilelJegham' }],
     ['script', {src:"https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"}],
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-432SV6EFJC' }],
     ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-432SV6EFJC');"],
@@ -57,7 +62,8 @@ module.exports = {
         "@type": "SearchAction",
         "target": "https://geoguess.games/?s={search_term_string}",
         "query-input": "required name=search_term_string"
-      }
+      },
+      "inLanguage": ["en-US", "fr-FR"]
     })]
 ],
 
