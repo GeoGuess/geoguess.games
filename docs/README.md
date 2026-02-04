@@ -1,9 +1,21 @@
 ---
 heroImage: ../img/icons/android-icon-144x144.png
 heroText: GeoGuess
-tagline: OpenSource geographic game with Google Map StreetView
-description: GeoGuess is an open-source geographic game with Google Map Street View. Start a single or multiplayer round and guess where you are in the world. Play with friends simultaneously.
+tagline: Free OpenSource geographic game with Google Map StreetView
 actionText: Guide →
+features:
+  - title: 👌 Free & Easy Self-Host
+    details: Open source game under MIT license. Follow the guide (15 min)
+  - title: 🎮 Multiplayer live
+    details: Play with your friends simultaneously
+  - title: 🔠 Translate
+    details: English, French, Czech, Spanish, German, Bulgarian, Portuguese, Swedish ...
+  - title: 🏴‍☠️ Mode Country, State...
+    details: Mode TimeAttack
+  - title: 🌎 Customs Map
+    details: Build et customs your maps
+  - title: 🐙 and more
+    details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 blocks:
   - title: How to play ?
     text: |
@@ -21,20 +33,10 @@ blocks:
     srcImg: img/screenshot-scoreboard.png
     altImg: screenshot
 actionLink: /guide/
-features:
-  - title: 👌 Free & Easy Self-Host
-    details: Open source game under MIT license. Follow the guide (15 min)
-  - title: 🎮 Multiplayer live
-    details: Play with your friends simultaneously
-  - title: 🔠 Translate
-    details: English, French, Czech, Spanish, German, Bulgarian, Portuguese, Swedish ...
-  - title: 🏴‍☠️ Mode Country, State...
-    details: Mode TimeAttack
-  - title: 🌎 Customs Map
-    details: Build et customs your maps
-  - title: 🐙 and more
-    details: 🥇 Score, 🔍 history, 🔗 share and remake your games,...
 footer: Under MIT licence
+description: GeoGuess is an open-source geographic game with Google Map Street
+  View. Start a single or multiplayer round and guess where you are in the
+  world. Play with friends simultaneously.
 home: true
 ---
 
